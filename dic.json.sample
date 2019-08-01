@@ -1,0 +1,515 @@
+{
+    "abandon": [
+        {
+            "bengali": "বর্জন করা",
+            "meaning": {
+                "noun": [
+                    {
+                        "definition": "Complete lack of inhibition or restraint.",
+                        "example": "she sings and sways with total abandon",
+                        "synonyms": [
+                            "uninhibitedness",
+                            "recklessness",
+                            "lack of restraint",
+                            "lack of inhibition",
+                            "unruliness",
+                            "wildness",
+                            "impulsiveness",
+                            "impetuosity",
+                            "immoderation",
+                            "wantonness"
+                        ]
+                    }
+                ],
+                "verb": [
+                    {
+                        "definition": "Cease to support or look after (someone); desert.",
+                        "example": "her natural mother had abandoned her at an early age",
+                        "synonyms": [
+                            "desert",
+                            "leave",
+                            "leave high and dry",
+                            "turn one's back on",
+                            "cast aside",
+                            "break with",
+                            "break up with"
+                        ]
+                    },
+                    {
+                        "definition": "Give up completely (a practice or a course of action)",
+                        "example": "he had clearly abandoned all pretence of trying to succeed",
+                        "synonyms": [
+                            "renounce",
+                            "relinquish",
+                            "dispense with",
+                            "forswear",
+                            "disclaim",
+                            "disown",
+                            "disavow",
+                            "discard",
+                            "wash one's hands of"
+                        ]
+                    },
+                    {
+                        "definition": "Allow oneself to indulge in (a desire or impulse)",
+                        "example": "they abandoned themselves to despair",
+                        "synonyms": [
+                            "indulge in",
+                            "give way to",
+                            "give oneself up to",
+                            "yield to",
+                            "lose oneself in",
+                            "lose oneself to"
+                        ]
+                    }
+                ]
+            },
+            "origin": "Late Middle English from Old French abandoner, from a- (from Latin ad ‘to, at’) + bandon ‘control’ (related to ban). The original sense was ‘bring under control’, later ‘give in to the control of, surrender to’ (abandon (sense 3 of the verb)).",
+            "phonetic": "/əˈband(ə)n/",
+            "word": "abandon"
+        }
+    ],
+    "abduct": [
+        {
+            "bengali": "অপহরণ করা",
+            "meaning": {
+                "verb": [
+                    {
+                        "definition": "Take (someone) away illegally by force or deception; kidnap.",
+                        "example": "the millionaire who disappeared may have been abducted",
+                        "synonyms": [
+                            "abduct",
+                            "carry off",
+                            "capture",
+                            "seize",
+                            "snatch",
+                            "hold to ransom",
+                            "take as hostage",
+                            "hijack"
+                        ]
+                    },
+                    {
+                        "definition": "(of a muscle) move (a limb or part) away from the midline of the body or from another part.",
+                        "example": "the posterior rectus muscle, which abducts the eye"
+                    }
+                ]
+            },
+            "origin": "Early 17th century from Latin abduct- ‘led away’, from the verb abducere, from ab- ‘away, from’ + ducere ‘to lead’.",
+            "phonetic": "/əbˈdʌkt/",
+            "word": "abduct"
+        }
+    ],
+    "abductor": [
+        {
+            "bengali": "অপহরণকারী",
+            "example": "Police rescued an abducted boy of comilla district and arrested the abductor from haji eidgah math area at dimla upazila in nilphamari on saturday, police sources said.",
+            "meaning": {
+                "noun": [
+                    {
+                        "definition": "A person who abducts another person.",
+                        "example": "she endured a two-hour ordeal at the hands of her abductors"
+                    },
+                    {}
+                ]
+            },
+            "origin": "Early 17th century (as a term in anatomy): modern Latin (see abduct).",
+            "phonetic": "/əbˈdʌktə/",
+            "word": "abductor"
+        }
+    ],
+    "ablaze": [
+        {
+            "bengali": "বহ্নিমান",
+            "example": "A housewife succumbed to her injuries today four days after she set herself ablaze as she was tortured by her husband allegedly for dowry. ",
+            "meaning": {
+                "adjective": [
+                    {
+                        "definition": "Burning fiercely.",
+                        "example": "his clothes were ablaze",
+                        "synonyms": [
+                            "alight",
+                            "aflame",
+                            "on fire",
+                            "in flames",
+                            "flaming",
+                            "burning",
+                            "blazing",
+                            "raging",
+                            "fiery",
+                            "lit",
+                            "lighted",
+                            "ignited"
+                        ]
+                    }
+                ]
+            },
+            "phonetic": "/əˈbleɪz/",
+            "word": "ablaze"
+        }
+    ],
+    "abound": [
+        {
+            "bengali": "উড়া",
+            "example": "Illegally modified vehicles abound",
+            "meaning": {
+                "verb": [
+                    {
+                        "definition": "Exist in large numbers or amounts.",
+                        "example": "rumours of a further scandal abound",
+                        "synonyms": [
+                            "be plentiful",
+                            "be abundant",
+                            "be numerous",
+                            "proliferate",
+                            "superabound",
+                            "thrive",
+                            "flourish",
+                            "be thick on the ground"
+                        ]
+                    }
+                ]
+            },
+            "origin": "Middle English (in the sense ‘overflow, be abundant’): from Old French abunder, from Latin abundare ‘overflow’, from ab- ‘from’ + undare ‘surge’ (from unda ‘a wave’).",
+            "phonetic": "/əˈbaʊnd/",
+            "word": "abound"
+        }
+    ],
+    "absorb": [
+        {
+            "bengali": "শোষণ করা",
+            "meaning": {
+                "verb": [
+                    {
+                        "definition": "Take in or soak up (energy or a liquid or other substance) by chemical or physical action.",
+                        "example": "buildings can be designed to absorb and retain heat",
+                        "synonyms": [
+                            "soak up",
+                            "suck up",
+                            "draw in",
+                            "draw up",
+                            "take in",
+                            "take up",
+                            "blot up",
+                            "mop up",
+                            "sponge up",
+                            "sop up"
+                        ]
+                    },
+                    {
+                        "definition": "Take up the attention of (someone); interest greatly.",
+                        "example": "she sat in an armchair, absorbed in a book",
+                        "synonyms": [
+                            "preoccupy",
+                            "engross",
+                            "captivate",
+                            "occupy",
+                            "engage"
+                        ]
+                    }
+                ]
+            },
+            "origin": "Late Middle English from Latin absorbere, from ab- ‘from’ + sorbere ‘suck in’.",
+            "phonetic": "/əbˈzɔːb/",
+            "word": "absorb"
+        }
+    ],
+    "absurd": [
+        {
+            "bengali": "কিম্ভুতকিমাকার",
+            "example": "Don't be absurd",
+            "meaning": {
+                "adjective": [
+                    {
+                        "definition": "Wildly unreasonable, illogical, or inappropriate.",
+                        "example": "the allegations are patently absurd",
+                        "synonyms": [
+                            "preposterous",
+                            "ridiculous",
+                            "ludicrous",
+                            "farcical",
+                            "laughable",
+                            "risible"
+                        ]
+                    }
+                ],
+                "noun": [
+                    {
+                        "definition": "An absurd state of affairs.",
+                        "example": "the incidents that followed bordered on the absurd"
+                    }
+                ]
+            },
+            "origin": "Mid 16th century from Latin absurdus ‘out of tune’, hence ‘irrational’; related to surdus ‘deaf, dull’.",
+            "phonetic": "/əbˈsəːd/",
+            "word": "absurd"
+        }
+    ],
+    "abundant": [
+        {
+            "bengali": "প্রচুর",
+            "meaning": {
+                "adjective": [
+                    {
+                        "definition": "Existing or available in large quantities; plentiful.",
+                        "example": "there was abundant evidence to support the theory",
+                        "synonyms": [
+                            "plentiful",
+                            "copious",
+                            "ample",
+                            "profuse",
+                            "rich",
+                            "lavish",
+                            "liberal",
+                            "generous",
+                            "bountiful",
+                            "large",
+                            "huge",
+                            "great",
+                            "bumper",
+                            "overflowing",
+                            "superabundant",
+                            "infinite",
+                            "inexhaustible",
+                            "opulent",
+                            "prolific",
+                            "teeming"
+                        ]
+                    }
+                ]
+            },
+            "origin": "Late Middle English from Latin abundant- ‘abounding’, from the verb abundare (see abound).",
+            "phonetic": "/əˈbʌnd(ə)nt/",
+            "word": "abundant"
+        }
+    ],
+    "abundantly": [
+        {
+            "bengali": "প্রচুর পরিমাণে",
+            "meaning": {
+                "adverb": [
+                    {
+                        "definition": "In large quantities; plentifully.",
+                        "example": "the plant grows abundantly in the wild",
+                        "synonyms": [
+                            "copiously",
+                            "plentifully",
+                            "amply",
+                            "profusely",
+                            "exuberantly",
+                            "prolifically",
+                            "luxuriantly",
+                            "in profusion",
+                            "in abundance",
+                            "in great quantity",
+                            "in large quantities",
+                            "in plenty",
+                            "aplenty",
+                            "in huge numbers",
+                            "freely",
+                            "extensively",
+                            "everywhere",
+                            "all over the place"
+                        ]
+                    }
+                ]
+            },
+            "phonetic": "/əˈbʌnd(ə)ntli/",
+            "word": "abundantly"
+        }
+    ],
+    "abysmal": [
+        {
+            "bengali": "অতল; ভয়ঙ্কর",
+            "example": "\"I think over the last few months the behaviour has been abysmal in international cricket,\" arthur, who is currently pakistan's head coach, said.",
+            "meaning": {
+                "adjective": [
+                    {
+                        "definition": "Extremely bad; appalling.",
+                        "example": "the quality of her work is abysmal",
+                        "synonyms": [
+                            "very bad",
+                            "dreadful",
+                            "awful",
+                            "terrible",
+                            "frightful",
+                            "atrocious",
+                            "disgraceful",
+                            "deplorable",
+                            "shameful",
+                            "woeful",
+                            "hopeless",
+                            "lamentable",
+                            "laughable",
+                            "substandard",
+                            "poor",
+                            "inadequate",
+                            "inferior",
+                            "unsatisfactory"
+                        ]
+                    },
+                    {
+                        "definition": "Very deep.",
+                        "example": "waterfalls that plunge into abysmal depths",
+                        "synonyms": [
+                            "profound",
+                            "extreme",
+                            "utter",
+                            "complete",
+                            "thorough",
+                            "deep",
+                            "endless",
+                            "immeasurable",
+                            "boundless",
+                            "incalculable",
+                            "unfathomable",
+                            "bottomless"
+                        ]
+                    }
+                ]
+            },
+            "origin": "Mid 17th century (used literally as in abysmal (sense 2)): from abysm. abysmal (sense 1) dates from the early 19th century.",
+            "phonetic": "/əˈbɪzm(ə)l/",
+            "word": "abysmal"
+        }
+    ],
+    "accomplice": [
+        {
+            "bengali": "যোগদানকারী",
+            "meaning": {
+                "noun": [
+                    {
+                        "definition": "A person who helps another commit a crime.",
+                        "example": "an accomplice in the murder",
+                        "synonyms": [
+                            "abetter",
+                            "accessory",
+                            "partner in crime",
+                            "associate",
+                            "confederate",
+                            "collaborator",
+                            "fellow conspirator",
+                            "co-conspirator"
+                        ]
+                    }
+                ]
+            },
+            "origin": "Mid 16th century alteration (probably by association with accompany) of Middle English complice ‘an associate’, via Old French from late Latin complex, complic- ‘allied’, from com- ‘together’ + the root of plicare ‘to fold’.",
+            "phonetic": "/əˈkʌmplɪs/",
+            "word": "accomplice"
+        }
+    ],
+    "accomplish": [
+        {
+            "bengali": "সাধা",
+            "meaning": {
+                "verb": [
+                    {
+                        "definition": "Achieve or complete successfully.",
+                        "example": "the planes accomplished their mission",
+                        "synonyms": [
+                            "fulfil",
+                            "achieve",
+                            "succeed in",
+                            "realize",
+                            "attain",
+                            "manage",
+                            "bring about",
+                            "bring off",
+                            "carry out",
+                            "carry off",
+                            "carry through",
+                            "execute",
+                            "conduct",
+                            "effect",
+                            "fix",
+                            "engineer",
+                            "perform",
+                            "do",
+                            "perpetrate",
+                            "discharge",
+                            "complete",
+                            "finish",
+                            "consummate",
+                            "conclude"
+                        ]
+                    }
+                ]
+            },
+            "origin": "Late Middle English from Old French acompliss-, lengthened stem of acomplir, based on Latin ad- ‘to’ + complere ‘to complete’.",
+            "phonetic": "/əˈkʌmplɪʃ/",
+            "word": "accomplish"
+        }
+    ],
+    "accord": [
+        {
+            "bengali": "চুক্তি",
+            "example": "We have an accord",
+            "meaning": {
+                "noun": [
+                    {
+                        "definition": "An official agreement or treaty.",
+                        "example": "opposition groups refused to sign the accord",
+                        "synonyms": [
+                            "pact",
+                            "treaty",
+                            "agreement",
+                            "settlement",
+                            "deal",
+                            "entente",
+                            "concordat",
+                            "concord",
+                            "protocol",
+                            "compact",
+                            "contract",
+                            "convention"
+                        ]
+                    }
+                ],
+                "verb": [
+                    {
+                        "definition": "Give or grant someone (power, status, or recognition)",
+                        "example": "the powers accorded to the head of state",
+                        "synonyms": [
+                            "give",
+                            "grant",
+                            "tender",
+                            "present",
+                            "award",
+                            "hand",
+                            "vouchsafe",
+                            "concede",
+                            "yield",
+                            "cede"
+                        ]
+                    },
+                    {
+                        "definition": "(of a concept or fact) be harmonious or consistent with.",
+                        "example": "his views accorded well with those of Merivale",
+                        "synonyms": [
+                            "correspond",
+                            "agree",
+                            "tally",
+                            "match up",
+                            "concur",
+                            "coincide",
+                            "be in agreement",
+                            "be consistent",
+                            "equate",
+                            "harmonize",
+                            "be in harmony",
+                            "be compatible",
+                            "be consonant",
+                            "be congruous",
+                            "be in tune",
+                            "dovetail",
+                            "correlate"
+                        ]
+                    }
+                ]
+            },
+            "origin": "Old English, from Old French acorder ‘reconcile, be of one mind’, from Latin ad- ‘to’ + cor, cord- ‘heart’; influenced by concord.",
+            "phonetic": "/əˈkɔːd/",
+            "word": "accord"
+        }
+    ]
+}
