@@ -97,7 +97,7 @@ def processWord(eng, ben, prep, example):
 
 def main():
 
-    with open('word.csv') as csvFile:
+    with open('words.csv') as csvFile:
         csvReader = csv.reader(csvFile, delimiter=',')
         lineCount = 0
         unmanagedWord = 0
