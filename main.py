@@ -146,6 +146,8 @@ def processLaTex():
     doc.preamble.append(Command('usepackage', \
             NoEscape(r'xcolor'), 'svgnames'))
 
+    doc.preamble.append(Command('setmainfont', \
+            'TeX Gyre Pagella', 'Numbers=OldStyle'))
 
 
     doc.preamble.append(Command('fancyhead', \
@@ -169,15 +171,15 @@ def processLaTex():
 
     new_comm = UnsafeCommand('newcommand', '\entry', options=7, \
     extra_arguments=NoEscape(r'\textbf{#1}\markboth{#1}{#1}\ {{\fontspec{Doulos SIL} #2}}\  {{\fontspec{Kalpurush} #3}}\ {#4}\ {#5}\ {\textit{#6}}\ {#7}'))
-    doc.append(new_comm)
+    doc.preamble.append(new_comm)
 
     color_bullet = UnsafeCommand('newcommand', '\colorBulletS', options=1, \
     extra_arguments=NoEscape(r'\colorbox[RGB]{171,171,171}{\makebox(11,2){\textcolor{white}{{\tiny \textbf{#1}}}}}'))
-    doc.append(color_bullet)
+    doc.preamble.append(color_bullet)
 
     color_bullet = UnsafeCommand('newcommand', '\colorBullet', options=1, \
     extra_arguments=NoEscape(r'\colorbox[RGB]{171,171,171}{\makebox(22, 1){\textcolor{white}{{\tiny \textbf{#1}}}}}'))
-    doc.append(color_bullet)
+    doc.preamble.append(color_bullet)
 
 
     doc.preamble.append(NoEscape(titlePage))

@@ -16,12 +16,16 @@
 \usepackage{fancyhdr}%
 %
 \usepackage[svgnames]{xcolor}%
+\setmainfont[Numbers=OldStyle]{TeX Gyre Pagella}%
 \fancyhead[L]{\textsf{\rightmark}}%
 \fancyhead[R]{\textsf{\leftmark}}%
 \renewcommand{\headrulewidth}{1.4pt}%
 \fancyfoot[C]{\textbf{\textsf{\thepage}}}%
 \renewcommand{\footrulewidth}{1.4pt}%
 \pagestyle{fancy}%
+\newcommand{\entry}[7]{\textbf{#1}\markboth{#1}{#1}\ {{\fontspec{Doulos SIL} #2}}\  {{\fontspec{Kalpurush} #3}}\ {#4}\ {#5}\ {\textit{#6}}\ {#7}}%
+\newcommand{\colorBulletS}[1]{\colorbox[RGB]{171,171,171}{\makebox(11,2){\textcolor{white}{{\tiny \textbf{#1}}}}}}%
+\newcommand{\colorBullet}[1]{\colorbox[RGB]{171,171,171}{\makebox(22, 1){\textcolor{white}{{\tiny \textbf{#1}}}}}}%
 
 \newcommand*{\rotrt}[1]{\rotatebox{90}{#1}} % Command to rotate right 90 degrees
 \newcommand*{\rotlft}[1]{\rotatebox{-90}{#1}} % Command to rotate left 90 degrees
@@ -45,9 +49,6 @@
 \begin{document}%
 \normalsize%
 \setlength{\parindent}{-0.7em}%
-\newcommand{\entry}[7]{\textbf{#1}\markboth{#1}{#1}\ {{\fontspec{Doulos SIL} #2}}\  {{\fontspec{Kalpurush} #3}}\ {#4}\ {#5}\ {\textit{#6}}\ {#7}}%
-\newcommand{\colorBulletS}[1]{\colorbox[RGB]{171,171,171}{\makebox(11,2){\textcolor{white}{{\tiny \textbf{#1}}}}}}%
-\newcommand{\colorBullet}[1]{\colorbox[RGB]{171,171,171}{\makebox(22, 1){\textcolor{white}{{\tiny \textbf{#1}}}}}}%
 \maketitle%
 \section*{A}%
 \begin{multicols}{2}%
