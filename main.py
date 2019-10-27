@@ -103,29 +103,91 @@ def processWord(eng, ben, prep, example):
 def processLaTex():
 
     titlePage = r'''
-\newcommand*{\rotrt}[1]{\rotatebox{90}{#1}} % Command to rotate right 90 degrees
-\newcommand*{\rotlft}[1]{\rotatebox{-90}{#1}} % Command to rotate left 90 degrees
+\renewcommand{\maketitle}{%
 
-\title{\
-	\def\CP{\textit{\Huge The Dictionary of Personal Words}} \	
-	\settowidth{\unitlength}{\CP} \
-	{\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotrt{$\}$}}} \\[\baselineskip]\
-	\textcolor{Sienna}{\CP} \\[\baselineskip] \
-	{\color{RosyBrown}\Large AN ILLUSTRATED COLLECTION} \\ \
-	{\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotlft{$\}$}}} \
-	}
+	\begin{titlepage} % Suppresses headers and footers on the title page
 
-\author{\
-	\Large\textbf{Arafat Hasan} \
-	}
+	\centering % Centre everything on the title page
+	
+	\scshape % Use small caps for all text on the title page
+	
+	\vspace*{\baselineskip} % White space at the top of the page
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick horizontal rule
+	\rule{\textwidth}{0.4pt} % Thin horizontal rule
+	
+	\vspace{0.75\baselineskip} % Whitespace above the title
+	
+	{\LARGE THE DICTIONARY \\ OF COLLECTED WORDS\\} % Title
+	
+	\vspace{0.75\baselineskip} % Whitespace below the title
+	
+	\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} % Thin horizontal rule
+	\rule{\textwidth}{1.6pt} % Thick horizontal rule
+	
+	\vspace{2\baselineskip} % Whitespace after the title block
+	
+	%------------------------------------------------
+	%	Subtitle
+	%------------------------------------------------
+	
+	A Number of Fascinating and Fundamental Words Presented in a Dictionary Way % Subtitle or further description
+	
+	\vspace*{3\baselineskip} % Whitespace under the subtitle
+    \vspace*{3\baselineskip} % Whitespace under the subtitle
+    \vspace*{3\baselineskip} % Whitespace under the subtitle
+	
+	%------------------------------------------------
+	%	Editor(s)
+	%------------------------------------------------
+	
+	Edited By
+	
+	\vspace{0.5\baselineskip} % Whitespace before the editors
+	
+	{\scshape\Large Arafat Hasan \\} % Editor list
+	
+	\vspace{0.5\baselineskip} % Whitespace below the editor list
+	
+	\textit{Mawlana Bhashani Science and Technology University \\ Tangail, Bangladesh} % Editor affiliation
+	
+	\vfill % Whitespace between editor names and publisher logo
+	
+	%------------------------------------------------
+	%	Publisher
+	%------------------------------------------------
+	
+	%\plogo % Publisher logo
+	
+	%\vspace{0.3\baselineskip} % Whitespace under the publisher logo
+	
+	\the\year % Publication year
+	
+	%{\large publisher} % Publisher
 
-\date{}
+	\end{titlepage}
+}
 '''
+
+
+    pdfMeta = r'''
+\usepackage[xetex,
+            pdfauthor={Arafat Hasan},
+            pdftitle={The Dictionary of Collected Words},
+            pdfsubject={A Personal Dictionary},
+            pdfkeywords={Personal Dictionary},
+            pdfproducer={XeLaTeX on Ubuntu},
+            pdfcreator={XeLaTeX}]{hyperref}
+   '''
 
 
     geometry_options = {"top":"2.3cm","bottom":"2.0cm", "left":"2.5cm",\
             "right":"2.0cm", "columnsep":"27pt"}
-    doc = Document('basic', geometry_options=geometry_options)
+    doc = Document('TheDictionaryOfCollectedWords', geometry_options=geometry_options)
     doc.documentclass = Command(
             'documentclass',
             options=['10pt', 'a4paper', 'twoside'],
@@ -146,6 +208,11 @@ def processLaTex():
     doc.preamble.append(Command('usepackage', \
             NoEscape(r'xcolor'), 'svgnames'))
 
+    
+    doc.preamble.append(NoEscape(pdfMeta))
+    doc.preamble.append(NoEscape('%'))
+    doc.preamble.append(NoEscape('%'))
+
     doc.preamble.append(Command('setmainfont', \
             'TeX Gyre Pagella', 'Numbers=OldStyle'))
 
@@ -155,6 +222,8 @@ def processLaTex():
     doc.preamble.append(Command('fancyhead', \
             NoEscape(r'\textsf{\leftmark}'), 'R'))
 
+    doc.preamble.append(NoEscape('%'))
+    doc.preamble.append(NoEscape('%'))
 
     doc.preamble.append(Command('renewcommand', \
         arguments=Arguments(NoEscape(r'\headrulewidth'), '1.4pt')))
@@ -170,7 +239,7 @@ def processLaTex():
     doc.append(NoEscape(r'\setlength{\parindent}{-0.7em}')) 
 
     new_comm = UnsafeCommand('newcommand', '\entry', options=7, \
-    extra_arguments=NoEscape(r'\textbf{#1}\markboth{#1}{#1}\ {{\fontspec{Doulos SIL} #2}}\  {{\fontspec{Kalpurush} #3}}\ {#4}\ {#5}\ {\textit{#6}}\ {#7}'))
+    extra_arguments=NoEscape(r'\textbf{#1}\markboth{#1}{#1}\ {{\fontspec{Doulos SIL} #2}}\  {{\fontspec{Kalpurush} \small {#3}}}\ {#4}\ {#5}\ {\textit{#6}}\ {#7}'))
     doc.preamble.append(new_comm)
 
     color_bullet = UnsafeCommand('newcommand', '\colorBulletS', options=1, \
@@ -181,6 +250,11 @@ def processLaTex():
     extra_arguments=NoEscape(r'\colorbox[RGB]{171,171,171}{\makebox(22, 1){\textcolor{white}{{\tiny \textbf{#1}}}}}'))
     doc.preamble.append(color_bullet)
 
+    doc.preamble.append(NoEscape(r'\newcommand{\plogo}{\fbox{$\mathcal{PL}$}} % Generic dummy publisher logo'))
+
+
+    doc.preamble.append(NoEscape('%'))
+    doc.preamble.append(NoEscape('%'))
 
     doc.preamble.append(NoEscape(titlePage))
     doc.append(NoEscape(r'\maketitle'))
@@ -188,7 +262,7 @@ def processLaTex():
     entriesList.sort()
 
     currentSection = "a"
-    sectionStr = "\section*{" + currentSection.upper() + "}"
+    sectionStr = "\chapter*{" + currentSection.upper() + "}"
     doc.append(NoEscape(sectionStr))
     doc.append(NoEscape(r'\begin{multicols}{2}'))
 
@@ -245,7 +319,8 @@ def processLaTex():
 
                partStr = partStr + " " + strGen
 
-           lorem = "\entry{"+word+"}{"+phonetic+"}{"+bengali+"}{"+partStr+"}" + "{" + prep +"}" + "{" + ownExample + "}" + "{" + origin + "}"
+           # lorem = "\entry{"+word+"}{"+phonetic+"}{"+bengali+"}{"+partStr+"}" + "{" + prep +"}" + "{" + ownExample + "}" + "{" + origin + "}" // With origin
+           lorem = "\entry{"+word+"}{"+phonetic+"}{"+bengali+"}{"+partStr+"}" + "{" + prep +"}" + "{" + ownExample + "}"
            if item[0] is not currentSection[0]:
                currentSection = item[0]
                sectionStr = "\section*{" + currentSection.upper() + "}"
