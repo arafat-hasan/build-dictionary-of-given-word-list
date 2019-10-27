@@ -8,5 +8,3 @@ The program first makes a `dic.json` file containing details of given words fetc
 
 
 Then it makes a printable pdf file as the dictionary using LaTex.
-
-
